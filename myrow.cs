@@ -13,20 +13,8 @@ namespace ConsoleApplication4
             Console.ForegroundColor = ConsoleColor.Blue;
             
             Console.ForegroundColor = ConsoleColor.Blue;
-            Console.WriteLine(" ");
-            Console.WriteLine(" ");
-            Console.WriteLine(" ");
-            Console.WriteLine(" ");
-            Console.WriteLine(" ");
-            Console.WriteLine(" ");
-            Console.WriteLine(" ");
-            Console.WriteLine("               ███╗   ███╗██╗   ██╗    ██████╗  ██████╗ ██╗    ██╗");
-            Console.WriteLine("               ████╗ ████║╚██╗ ██╔╝    ██╔══██╗██╔═══██╗██║    ██║");
-            Console.WriteLine("               ██╔████╔██║ ╚████╔╝     ██████╔╝██║   ██║██║ █╗ ██║");
-            Console.ForegroundColor = ConsoleColor.DarkBlue;
-            Console.WriteLine("               ██║╚██╔╝██║  ╚██╔╝      ██╔══██╗██║   ██║██║███╗██║");
-            Console.WriteLine("               ██║ ╚═╝ ██║   ██║       ██║  ██║╚██████╔╝╚███╔███╔╝");
-            Console.WriteLine("               ╚═╝     ╚═╝   ╚═╝       ╚═╝  ╚═╝ ╚═════╝  ╚══╝╚══╝ ");
+
+            Console.WriteLine("MY ROW");
 
 
             Console.SetCursorPosition(12, 17);
@@ -714,32 +702,8 @@ namespace ConsoleApplication4
             
             Console.Clear();
             Console.WriteLine("");
-            Console.WriteLine("");
-            Console.WriteLine(" ");
-            Console.WriteLine(" ");
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine(@"                ▄████████▄  ▄██████████▄    ▄██████████▄    ██████████▄ ");
-            Console.WriteLine(@"               ███     ███ ███         ███ ███        ███   ███    ▀███");
-            Console.WriteLine(@"               ███     █▀  ███         ███ ███        ███   ███     ███");
-            Console.WriteLine(@"              ▄███         ███         ███ ███        ███   ███     ███");
-            Console.ForegroundColor = ConsoleColor.DarkRed;
-            Console.WriteLine(@"             ▀▀███  ████▄  ███         ███ ███        ███   ███     ███");
-            Console.WriteLine(@"               ███     ███ ███         ███ ███        ███   ███     ███");
-            Console.WriteLine(@"               ███     ███ ███         ███ ███        ███   ███    ▄███");
-            Console.WriteLine(@"               ██████████▀ ▀████████████▀  ▀███████████▀    █████████▀ ");
-            Console.WriteLine(@"");
-            Console.WriteLine(@"");
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine(@"                         ▀█████████▄ ▄██   ▄      ▄████████ ");
-            Console.WriteLine(@"                          ███    ███ ███   ██▄   ███    ███ ");
-            Console.WriteLine(@"                          ███    ███ ███▄▄▄███   ███    █▀  ");
-            Console.WriteLine(@"                         ▄███▄▄▄██▀  ▀▀▀▀▀▀███  ▄███▄▄▄     ");
-            Console.ForegroundColor = ConsoleColor.DarkRed;
-            Console.WriteLine(@"                         ▀▀███▀▀▀██▄  ▄██   ███ ▀▀███▀▀▀     ");
-            Console.WriteLine(@"                           ███    ██▄ ███   ███   ███    █▄  ");
-            Console.WriteLine(@"                           ███    ███ ███   ███   ███    ███ ");
-            Console.WriteLine(@"                         ▄█████████▀   ▀█████▀    ██████████ ");
-            System.Threading.Thread.Sleep(1500);
+            Console.WriteLine("Good bye!");
+            
             Console.Clear();
         }
     }
